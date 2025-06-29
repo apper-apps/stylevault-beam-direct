@@ -42,10 +42,9 @@
 * {
     @apply border-gray-200;
   }
-  body {
+body {
     @apply bg-white text-gray-900 font-body;
   }
-}
 
 @layer components {
   .btn-gradient {
