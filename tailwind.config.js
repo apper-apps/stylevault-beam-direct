@@ -7,11 +7,30 @@ export default {
   theme: {
     extend: {
       colors: {
-        'lavender-light': '#e9d8fb',
-        'pink-vibrant': '#ed5073',
-        'magenta-bold': '#b434b0',
-        'violet-rich': '#b032b4',
-        'purple-deep': '#7e12f0',
+        border: "hsl(var(--border))",
+        input: "hsl(var(--input))",
+        ring: "hsl(var(--ring))",
+        background: "hsl(var(--background))",
+        foreground: "hsl(var(--foreground))",
+        primary: {
+          DEFAULT: "hsl(var(--primary))",
+          foreground: "hsl(var(--primary-foreground))",
+        },
+        secondary: {
+          DEFAULT: "hsl(var(--secondary))",
+          foreground: "hsl(var(--secondary-foreground))",
+        },
+        muted: {
+          DEFAULT: "hsl(var(--muted))",
+          foreground: "hsl(var(--muted-foreground))",
+        },
+        accent: {
+          DEFAULT: "hsl(var(--accent))",
+          foreground: "hsl(var(--accent-foreground))",
+        },
+},
+      borderColor: {
+        DEFAULT: "hsl(var(--border))",
       },
       fontFamily: {
         'display': ['Poppins', 'sans-serif'],
