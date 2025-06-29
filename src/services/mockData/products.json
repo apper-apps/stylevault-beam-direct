@@ -1,0 +1,146 @@
+[
+  {
+    "Id": 1,
+    "title": "Classic White T-Shirt",
+    "description": "A comfortable and versatile white t-shirt made from 100% organic cotton. Perfect for everyday wear with a relaxed fit and soft texture.",
+    "price": 29.99,
+    "category": "Men",
+    "image": "https://picsum.photos/400/400?random=1",
+    "inStock": true
+  },
+  {
+    "Id": 2,
+    "title": "Denim Jacket",
+    "description": "Vintage-style denim jacket with a modern fit. Features classic button closure, chest pockets, and premium quality denim fabric.",
+    "price": 89.99,
+    "category": "Men",
+    "image": "https://picsum.photos/400/400?random=2",
+    "inStock": true
+  },
+  {
+    "Id": 3,
+    "title": "Summer Floral Dress",
+    "description": "Elegant floral print dress perfect for summer occasions. Features a flowing silhouette, adjustable straps, and breathable fabric.",
+    "price": 79.99,
+    "category": "Women",
+    "image": "https://picsum.photos/400/400?random=3",
+    "inStock": true
+  },
+  {
+    "Id": 4,
+    "title": "Black Leather Boots",
+    "description": "Premium black leather boots with comfortable sole and classic design. Perfect for both casual and formal occasions.",
+    "price": 149.99,
+    "category": "Women",
+    "image": "https://picsum.photos/400/400?random=4",
+    "inStock": true
+  },
+  {
+    "Id": 5,
+    "title": "Kids Colorful Sneakers",
+    "description": "Fun and comfortable sneakers for kids with bright colors and easy velcro closure. Perfect for active play and school.",
+    "price": 39.99,
+    "category": "Kids",
+    "image": "https://picsum.photos/400/400?random=5",
+    "inStock": true
+  },
+  {
+    "Id": 6,
+    "title": "Casual Chinos",
+    "description": "Comfortable chino pants with a modern slim fit. Made from premium cotton blend fabric in a versatile khaki color.",
+    "price": 59.99,
+    "category": "Men",
+    "image": "https://picsum.photos/400/400?random=6",
+    "inStock": true
+  },
+  {
+    "Id": 7,
+    "title": "Silk Blouse",
+    "description": "Elegant silk blouse with delicate button details and flowing sleeves. Perfect for professional and evening wear.",
+    "price": 99.99,
+    "category": "Women",
+    "image": "https://picsum.photos/400/400?random=7",
+    "inStock": false
+  },
+  {
+    "Id": 8,
+    "title": "Kids Denim Overalls",
+    "description": "Adorable denim overalls for kids with adjustable straps and multiple pockets. Durable and comfortable for everyday play.",
+    "price": 49.99,
+    "category": "Kids",
+    "image": "https://picsum.photos/400/400?random=8",
+    "inStock": true
+  },
+  {
+    "Id": 9,
+    "title": "Athletic Joggers",
+    "description": "Comfortable athletic joggers with moisture-wicking fabric and elastic waistband. Perfect for workouts and lounging.",
+    "price": 45.99,
+    "category": "Men",
+    "image": "https://picsum.photos/400/400?random=9",
+    "inStock": true
+  },
+  {
+    "Id": 10,
+    "title": "Knit Cardigan",
+    "description": "Cozy knit cardigan with button closure and ribbed cuffs. Made from soft wool blend for warmth and comfort.",
+    "price": 69.99,
+    "category": "Women",
+    "image": "https://picsum.photos/400/400?random=10",
+    "inStock": true
+  },
+  {
+    "Id": 11,
+    "title": "Kids Rainbow Hoodie",
+    "description": "Soft and warm hoodie with colorful rainbow design. Features kangaroo pocket and adjustable hood.",
+    "price": 34.99,
+    "category": "Kids",
+    "image": "https://picsum.photos/400/400?random=11",
+    "inStock": true
+  },
+  {
+    "Id": 12,
+    "title": "Formal Dress Shirt",
+    "description": "Classic white dress shirt with crisp collar and French cuffs. Made from premium cotton for professional occasions.",
+    "price": 65.99,
+    "category": "Men",
+    "image": "https://picsum.photos/400/400?random=12",
+    "inStock": true
+  },
+  {
+    "Id": 13,
+    "title": "High-Waisted Jeans",
+    "description": "Vintage-inspired high-waisted jeans with a flattering fit and premium denim construction. Perfect for casual styling.",
+    "price": 75.99,
+    "category": "Women",
+    "image": "https://picsum.photos/400/400?random=13",
+    "inStock": true
+  },
+  {
+    "Id": 14,
+    "title": "Kids School Backpack",
+    "description": "Durable and colorful backpack perfect for school with multiple compartments and padded straps for comfort.",
+    "price": 29.99,
+    "category": "Kids",
+    "image": "https://picsum.photos/400/400?random=14",
+    "inStock": true
+  },
+  {
+    "Id": 15,
+    "title": "Wool Peacoat",
+    "description": "Classic wool peacoat with double-breasted design and warm lining. Perfect for winter weather and formal occasions.",
+    "price": 189.99,
+    "category": "Men",
+    "image": "https://picsum.photos/400/400?random=15",
+    "inStock": true
+  },
+  {
+    "Id": 16,
+    "title": "Midi Skirt",
+    "description": "Elegant midi skirt with pleated design and comfortable elastic waistband. Versatile piece for work and weekend wear.",
+    "price": 54.99,
+    "category": "Women",
+    "image": "https://picsum.photos/400/400?random=16",
+    "inStock": true
+  }
+]

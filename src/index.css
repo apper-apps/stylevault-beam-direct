@@ -1,0 +1,93 @@
+@import 'react-toastify/dist/ReactToastify.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-white text-gray-900 font-body;
+  }
+}
+
+@layer components {
+  .btn-gradient {
+    @apply bg-gradient-to-r from-purple-deep to-violet-rich text-white font-semibold px-6 py-3 rounded-lg shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-200;
+  }
+  
+  .btn-outline-gradient {
+    @apply border-2 border-purple-deep text-purple-deep font-semibold px-6 py-3 rounded-lg hover:bg-gradient-to-r hover:from-purple-deep hover:to-violet-rich hover:text-white transition-all duration-200;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-purple-deep to-pink-vibrant bg-clip-text text-transparent;
+  }
+  
+  .card-hover {
+    @apply hover:shadow-card-hover transform hover:scale-102 transition-all duration-250;
+  }
+}
+
+/* Toast Styling */
+.Toastify__toast-container {
+  @apply z-50 top-20;
+}
+
+.Toastify__toast {
+  @apply rounded-lg font-body text-sm;
+}
+
+.Toastify__toast--success {
+  @apply bg-gradient-to-r from-green-500 to-green-600 text-white;
+}
+
+.Toastify__toast--error {
+  @apply bg-gradient-to-r from-red-500 to-red-600 text-white;
+}
+
+.Toastify__toast--info {
+  @apply bg-gradient-to-r from-blue-500 to-blue-600 text-white;
+}
+
+.Toastify__close-button {
+  @apply text-white opacity-70 hover:opacity-100;
+}
+
+/* Skeleton Animation */
+.skeleton {
+  @apply relative overflow-hidden bg-gray-200 rounded;
+}
+
+.skeleton::after {
+  @apply absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent;
+  content: '';
+  animation: shimmer 2s infinite;
+}
+
+/* Responsive Grid Utilities */
+.product-grid {
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6;
+}
+
+.category-grid {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8;
+}
+
+/* Custom Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  @apply bg-gray-100 rounded;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-gradient-to-r from-purple-deep to-violet-rich rounded;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  @apply from-violet-rich to-magenta-bold;
+}
